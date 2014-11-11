@@ -34,6 +34,25 @@ Gorillaのインストールについては配布元Webサイトに従って下�
 
     $ git https://github.com/RHEMS-Japan/rapip-patlite.git patlite
 
+もしくは composer の repositories へ追加してもよいかもしれません
+
+    {
+        "type": "package",
+        "package": {
+            "name": "rapip/patlite",
+            "type": "fuel-package",
+            "version": "master",
+            "require": {
+                "composer/installers": "*"
+            },
+            "source": {
+                "url": "https://github.com/RHEMS-Japan/rapip-patlite.git",
+                "type": "git",
+                "reference": "master"
+            }
+        }
+    }
+
 必要であれば patlite/config/patlite.php を編集しRS232Cデバイス名を正しいものに設定して下さい  
 デフォルトは "/dev/ttyUSB0" です
 
