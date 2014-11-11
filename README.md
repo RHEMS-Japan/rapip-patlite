@@ -1,5 +1,4 @@
 # rapip-patlite
-----------------
 
 ## 概要
 
@@ -9,7 +8,6 @@ PATLITE社の[PHE-3FB](http://www.patlite.jp/product/phe_3fbe1.html)のコント
 実績としてはRaspberry Pi(Raspbian)とESXi5上のゲストOS(Ubuntu)にて制御に成功しています
 
 ## ディレクトリ構造
-----------------
 
 
 	fuel/packages/patlite
