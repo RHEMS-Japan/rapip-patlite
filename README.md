@@ -2,7 +2,6 @@
 ----------------
 
 ## 概要
-------
 
 PATLITE社の[PHE-3FB](http://www.patlite.jp/product/phe_3fbe1.html)のコントロールを行うFuelPHPパッケージです  
 パトライトのランプと警報音をFuelPHPにて制御できるようになります。
